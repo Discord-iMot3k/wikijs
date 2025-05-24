@@ -2,7 +2,7 @@
 title: Accueil
 description: Bienvenue sur le Wiki de la communauté d'iMot3k !
 published: true
-date: 2025-05-24T18:44:10.027Z
+date: 2025-05-24T18:44:43.316Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-22T11:50:36.810Z
@@ -33,6 +33,8 @@ La documentation est organisée en sections pour faciliter votre navigation :
 -   🛠️ **Contribuer** : Apprenez comment participer et apporter votre pierre à l'édifice.
 
 > 💡 **Astuce** : Consultez la section *Contribuer* pour savoir comment vous pouvez aider à améliorer cette documentation.
+{.is-success}
+
 
 ---
 
@@ -46,6 +48,8 @@ Nous vous invitons à rejoindre notre communauté sur **Discord** pour échanger
 
 > ⚠️ **Pour éditer cette documentation, une connexion via Discord est obligatoire.**  
 > Cela garantit l’authentification et la sécurité des contributeurs.
+{.is-warning}
+
 
 ---
 
