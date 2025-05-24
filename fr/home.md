@@ -1,8 +1,8 @@
 ---
-title: Acceuil
+title: Accueil
 description: Bienvenue sur le Wiki de la communauté d'iMot3k !
 published: true
-date: 2025-05-22T11:58:02.706Z
+date: 2025-05-24T18:44:10.027Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-22T11:50:36.810Z
@@ -27,14 +27,12 @@ Notre objectif : créer un environnement **collaboratif**, où chacun peut **app
 
 La documentation est organisée en sections pour faciliter votre navigation :
 
-- 🚀 **Guides de démarrage** : Des tutoriels pour vous aider à débuter.
-- 📖 **Références techniques** : Informations détaillées sur divers sujets technologiques.
-- 🤝 **Projets communautaires** : Découvrez les projets sur lesquels nous travaillons ensemble.
-- 🛠️ **Contribuer** : Apprenez comment participer et apporter votre pierre à l'édifice.
+-   🚀 **Guides de démarrage** : Des tutoriels pour vous aider à débuter.
+-   📖 **Références techniques** : Informations détaillées sur divers sujets technologiques.
+-   🤝 **Projets communautaires** : Découvrez les projets sur lesquels nous travaillons ensemble.
+-   🛠️ **Contribuer** : Apprenez comment participer et apporter votre pierre à l'édifice.
 
-> 💡 **Astuce** : Consultez la section _Contribuer_ pour savoir comment vous pouvez aider à améliorer cette documentation.
-{.is-info}
-
+> 💡 **Astuce** : Consultez la section *Contribuer* pour savoir comment vous pouvez aider à améliorer cette documentation.
 
 ---
 
@@ -42,17 +40,12 @@ La documentation est organisée en sections pour faciliter votre navigation :
 
 Nous vous invitons à rejoindre notre communauté sur **Discord** pour échanger avec d'autres membres, poser des questions et participer aux discussions.
 
-
-
 ---
 
 ## 🔐 Édition du Wiki
 
-
-> ⚠️ **Pour éditer cette documentation, une connexion via Discord est obligatoire.** 
+> ⚠️ **Pour éditer cette documentation, une connexion via Discord est obligatoire.**  
 > Cela garantit l’authentification et la sécurité des contributeurs.
-{.is-warning}
-
 
 ---
 
