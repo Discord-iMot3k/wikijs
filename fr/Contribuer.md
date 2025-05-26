@@ -2,7 +2,7 @@
 title: Contribuer
 description: Ici on regarde comment contribuer au wiki !
 published: true
-date: 2025-05-24T18:48:20.394Z
+date: 2025-05-26T12:24:02.908Z
 tags: contribution, contribuer, wiki, imot3k
 editor: markdown
 dateCreated: 2025-05-24T18:41:26.090Z
@@ -85,7 +85,7 @@ Pour passer du niveau **Commentateur** au niveau **Éditeur**, procédez comme s
 
 ## 5. Ressources utiles
 
-- **Page d’accueil du Wiki** : [Accueil iMot3k](../Accueil)  
+- **Page d’accueil du Wiki** : [Accueil iMot3k](../home)  
 - **Salon Discord #wiki** : échanger en direct avec les contributeurs  (Coming soon)
 - **Guide Markdown** : https://www.markdownguide.org/basic-syntax/
 
