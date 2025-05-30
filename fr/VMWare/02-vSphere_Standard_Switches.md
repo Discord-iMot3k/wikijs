@@ -1,15 +1,15 @@
 ---
-title: 02 - vSphere Standard Switches
+title: vSphere Standard Switches
 description: 
 published: true
-date: 2025-05-30T21:20:55.247Z
+date: 2025-05-30T21:22:12.247Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-30T21:20:55.247Z
 ---
 
-<b><p style="text-align: center;"> Auteur : Gz - Discord imot3k 
-Tout droit réservé, reproductions et copies interdites sans autorisation </p></b>
+> <b><p style="text-align: center;"> Auteur : Gz - Discord imot3k 
+> Tout droit réservé, reproductions et copies interdites sans autorisation </p></b>
 
 Dans cette partie nous allons voir certaines fonctions des "**vSphere Standard Switches**".
 Nous allons principalement voir la façon dont le "**nic teaming**" fonctionne et comment nous pouvons configurer les "**vmnic**" de nos ESXi pour tolérer les problèmes réseau.
