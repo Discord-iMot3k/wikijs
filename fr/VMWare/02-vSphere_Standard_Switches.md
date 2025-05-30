@@ -2,7 +2,7 @@
 title: vSphere Standard Switches
 description: 
 published: true
-date: 2025-05-30T21:22:12.247Z
+date: 2025-05-30T21:23:40.492Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-30T21:20:55.247Z
