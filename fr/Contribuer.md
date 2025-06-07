@@ -2,7 +2,7 @@
 title: Contribuer
 description: Ici on regarde comment contribuer au wiki !
 published: true
-date: 2025-06-07T21:50:50.930Z
+date: 2025-06-07T21:51:24.759Z
 tags: contribution, contribuer, wiki, imot3k
 editor: markdown
 dateCreated: 2025-05-24T18:41:26.090Z
@@ -32,7 +32,7 @@ Bienvenue sur la page « Contribuer » du Wiki iMot3k ! Vous trouverez ici toute
 
 ## 2. Obtenir le droit d’édition
 
-Pour passer du niveau **Commentateur** au niveau **Éditeur**, procédez comme suit :
+Pour passer au niveau **Éditeur**, procédez comme suit :
 
 1. **Contacter un administrateur**  
    - Identifiez une personne de l’équipe d’administration (pseudo visible dans la liste des membres avec le rôle “Admin Wiki”).  
