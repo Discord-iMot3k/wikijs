@@ -2,7 +2,7 @@
 title: Contribuer
 description: Ici on regarde comment contribuer au wiki !
 published: true
-date: 2025-06-07T21:07:42.666Z
+date: 2025-06-07T21:08:06.543Z
 tags: contribution, contribuer, wiki, imot3k
 editor: markdown
 dateCreated: 2025-05-24T18:41:26.090Z
