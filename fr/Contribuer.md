@@ -2,7 +2,7 @@
 title: Contribuer
 description: Ici on regarde comment contribuer au wiki !
 published: true
-date: 2025-06-07T21:08:06.543Z
+date: 2025-06-07T21:48:11.609Z
 tags: contribution, contribuer, wiki, imot3k
 editor: markdown
 dateCreated: 2025-05-24T18:41:26.090Z
@@ -17,8 +17,8 @@ Bienvenue sur la page « Contribuer » du Wiki iMot3k ! Vous trouverez ici toute
 ## 1. Prérequis : être membre de la communauté Discord
 
 1. **Rejoindre le serveur Discord iMot3k**  
-   • Rendez-vous sur : https://discord.imot3k.fr/ 
-   • Validez les règles et récupérez votre rôle de membre.
+   - Rendez-vous sur : https://discord.imot3k.fr/ 
+   - Validez les règles et récupérez votre rôle de membre.
 
 2. **Se connecter au Wiki via Discord**  
    - Cliquez sur **Se connecter** (bouton Discord) en haut à droite du site.  
