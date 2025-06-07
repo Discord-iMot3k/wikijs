@@ -2,7 +2,7 @@
 title: Contribuer
 description: Ici on regarde comment contribuer au wiki !
 published: true
-date: 2025-06-07T21:50:00.290Z
+date: 2025-06-07T21:50:50.930Z
 tags: contribution, contribuer, wiki, imot3k
 editor: markdown
 dateCreated: 2025-05-24T18:41:26.090Z
@@ -12,7 +12,9 @@ dateCreated: 2025-05-24T18:41:26.090Z
 
 Bienvenue sur la page « Contribuer » du Wiki iMot3k ! Vous trouverez ici toutes les étapes pour obtenir les droits nécessaires et participer activement à la documentation de la communauté.
 
----
+
+
+
 
 ## 1. Prérequis : être membre de la communauté Discord
 
@@ -25,7 +27,7 @@ Bienvenue sur la page « Contribuer » du Wiki iMot3k ! Vous trouverez ici toute
    - Si vous êtes bien sur le serveur, l’authentification sera automatiquement validée.  
    - Sinon, un message d’erreur vous invitera à rejoindre ou réactiver votre accès au serveur.
 
----
+
 
 
 ## 2. Obtenir le droit d’édition
@@ -47,7 +49,7 @@ Pour passer du niveau **Commentateur** au niveau **Éditeur**, procédez comme s
    - Retournez sur le Wiki et reconnectez-vous si nécessaire.  
    - Le bouton **Éditer** apparaîtra en haut de chaque page.
 
----
+
 
 ## 3. Bonnes pratiques de contribution
 
@@ -67,7 +69,7 @@ Pour passer du niveau **Commentateur** au niveau **Éditeur**, procédez comme s
   - Relisez votre contribution pour corriger les fautes et vérifier les liens.  
   - Demandez à un autre éditeur de relire si nécessaire.
 
----
+
 
 ## 4. Ressources utiles
 
@@ -75,7 +77,7 @@ Pour passer du niveau **Commentateur** au niveau **Éditeur**, procédez comme s
 - **Salon Discord #wiki** : échanger en direct avec les contributeurs  (Coming soon)
 - **Guide Markdown** : https://www.markdownguide.org/basic-syntax/
 
----
+
 
 > 😊 Merci pour votre participation !  
 > Grâce à vos contributions, la documentation iMot3k reste à jour et de qualité pour toute la communauté.
