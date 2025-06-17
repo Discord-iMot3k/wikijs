@@ -1,8 +1,8 @@
 ---
 title: VMWare
-description: Tuto sur VMWare
+description: Tutos sur VMWare
 published: true
-date: 2025-06-17T22:27:39.326Z
+date: 2025-06-17T22:29:18.254Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T22:21:33.308Z
