@@ -2,7 +2,7 @@
 title: VMWare
 description: Tuto sur VMWare
 published: true
-date: 2025-06-17T22:21:33.308Z
+date: 2025-06-17T22:23:22.887Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T22:21:33.308Z
@@ -14,7 +14,7 @@ dateCreated: 2025-06-17T22:21:33.308Z
 
 ---
 
-<li><a href="VMWare/Les_concepts_des_réseaux_virtuels"> Les concepts des réseaux virtuels </a> : Introduction aux réseaux virtuels </li>
+<li><a href="/VMWare/Les_concepts_des_réseaux_virtuels"> Les concepts des réseaux virtuels </a> : Introduction aux réseaux virtuels </li>
 
 
 <li><a href="/VMWare/vSphere_Standard_Switches"> vSphere Standard Switches </a> : Introduction au concept de "vSphere Standard Switch" </li>
