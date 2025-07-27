@@ -2,11 +2,13 @@
 title: Introduction à Proxmox VE
 description: Proxmox VE (Virtual Environment) est une solution libre et open-source de virtualisation basée sur Debian. Elle permet d’héberger et de gérer à la fois des machines virtuelles et des conteneurs Linux, avec une interface web centralisée.
 published: true
-date: 2025-06-23T20:36:29.422Z
+date: 2025-07-27T21:08:49.285Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-23T18:32:08.824Z
 ---
+
+![proxmox-logo-nobg.png](/proxmox-logo-nobg.png)
 
 ## Objectif de Proxmox VE
 
