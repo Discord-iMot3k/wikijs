@@ -2,13 +2,13 @@
 title: LVM - Local Volume Manager
 description: Cette page présente le fonctionnement de LVM, ses cas d'usage, ses avantages, ses limites, et dans quels contextes il peut être utilisé comme solution de stockage local.
 published: true
-date: 2025-07-28T10:25:55.741Z
+date: 2025-07-28T10:26:48.221Z
 tags: proxmox, pve, stockage
 editor: markdown
 dateCreated: 2025-07-28T10:22:21.500Z
 ---
 
-# LVM - Logical Volume Manager
+# 📄 Présentation Générale
 
 ## ⚙️ Difficulté de mise en place : 4/10
 *LVM est relativement simple à mettre en place, comparé à ZFS. Il ne nécessite pas de configuration particulière ni de concepts plus complexes comme les pools ou les checksums. Pour un usage courant en stockage local, c'est un bon point d'entrée*
@@ -69,4 +69,7 @@ LVM est particulièrement adapté dans les cas suivants :
 
 *Redondance$^1$* : Duplication des données ou des composants pour garantir leur disponibilité même en cas de panne.
 
+---
+
+# 🛠️ Mise en place et Configuration de LVM
 
