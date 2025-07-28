@@ -2,7 +2,7 @@
 title: Proxmox
 description: Bienvenue sur le wiki dédié à Proxmox Virtual Environment.   Ce guide s'adresse à ceux qui veulent comprendre, déployer et administrer leur infrastructure Proxmox, du simple serveur standalone au cluster haute dispo.
 published: true
-date: 2025-06-23T19:47:22.789Z
+date: 2025-07-28T09:40:28.147Z
 tags: proxmox, pve, hyperviseur
 editor: markdown
 dateCreated: 2025-06-23T13:31:44.587Z
@@ -48,7 +48,7 @@ dateCreated: 2025-06-23T13:31:44.587Z
 
 # Stockage
 
-- [Types de stockage *ZFS, LVM, Ceph, CIFS, NFS, etc.*](/Proxmox/stockage/types)
+- [Types de stockage *ZFS, LVM, Ceph, CIFS, NFS, etc.*](/Proxmox/stockage/types-de-stockage)
 - [Ajout de disques *Ajout de disques physiques ou partages réseau.*](/Proxmox/stockage/disques)
 - [Gestion des pools ZFS *Création, import, snapshots, replication.*](/Proxmox/stockage/zfs)
 {.links-list}
