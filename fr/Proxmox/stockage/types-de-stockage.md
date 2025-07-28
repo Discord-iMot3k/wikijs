@@ -2,7 +2,7 @@
 title: Types de stockage
 description: Ici, vous retrouverez l'ensemble des principales technologies de stockage disponibles sur Proxmox VE
 published: false
-date: 2025-07-28T09:30:52.838Z
+date: 2025-07-28T09:38:01.272Z
 tags: proxmox, pve
 editor: markdown
 dateCreated: 2025-07-28T09:30:52.838Z
@@ -22,3 +22,30 @@ Sur **Proxmox**, on peut gérer du **stockage local** avec **LVM** ou encore **Z
 Cette page vise à présenter les différentes solutions de stockage, qui vous seront utiles à la fois dans des environnements professionnels, des homelab, ou des plateformes de test.
 
 *🎯 L'objectif : Poser les bases pour comprendre les logiques de chaque système, et vous donner le bon outil selon vos besoins.*
+
+---
+
+# 🧩 Stockage local
+### *Stockage directement rattaché à la machine physique virtuelle*
+
+- [LVM *Logical Volume Manager*](/Proxmox/stockage/types-de-stockage/lvm)
+- [ZFS *Zettabyte File System*](/Proxmox/stockage/types-de-stockage/zfs)
+{.links-list}
+
+---
+
+# 🌐 Stockage réseau
+### *Stocakge partagé via un réseau local ou distant*
+
+- [NFS *Network File System*](/Proxmox/stockage/types-de-stockage/nfs)
+- [CIFS / SMB *Common Internet File System*](/Proxmox/stockage/types-de-stockage/cifs-smb)
+{.links-list}
+
+---
+
+# 🧬 Stockage distribué
+### *Stockage répliqué, réparti et plus tolérant aux pannes*
+
+- [CEPH](/Proxmox/stockage/types-de-stockage/ceph)
+{.links-list}
+
