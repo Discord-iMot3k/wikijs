@@ -2,7 +2,7 @@
 title: Types de stockage
 description: Ici, vous retrouverez l'ensemble des principales technologies de stockage disponibles sur Proxmox VE
 published: true
-date: 2025-07-28T09:41:01.456Z
+date: 2025-07-28T09:52:18.105Z
 tags: proxmox, pve
 editor: markdown
 dateCreated: 2025-07-28T09:30:52.838Z
