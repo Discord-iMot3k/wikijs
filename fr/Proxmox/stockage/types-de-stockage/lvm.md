@@ -2,7 +2,7 @@
 title: LVM - Local Volume Manager
 description: Cette page présente le fonctionnement de LVM, ses cas d'usage, ses avantages, ses limites, et dans quels contextes il peut être utilisé comme solution de stockage local.
 published: true
-date: 2025-07-28T10:24:02.604Z
+date: 2025-07-28T10:25:55.741Z
 tags: proxmox, pve, stockage
 editor: markdown
 dateCreated: 2025-07-28T10:22:21.500Z
@@ -50,7 +50,7 @@ LVM est particulièrement adapté dans les cas suivants :
 
 *Résilience$^1$* : Capacité d'un système à fonctionner même en cas de panne ou d'erreur.
 
-# 👍 Avantages
+## 👍 Avantages
 
 * **Flexible** : On peut agrandir ou réduire un volume sans tout casser
 * **Ajout de disques à chaud** : On peut ajouter un disque et l'intégrer à un volume existant sans redémarrer
@@ -58,7 +58,7 @@ LVM est particulièrement adapté dans les cas suivants :
 * **Snapshots** : Permet de créer une "photo" d'un volume à un instant donné, utile pour les sauvegardes d'anciennes versions ou les tests.
 * **Léger et peu contraignant** : Utilise peu de ressources système, ne surchage pas la RAM, ni les disques. Convient bien aux enviornnements simples ou peu puissants.
 
-# 👎 Inconvénients
+## 👎 Inconvénients
 
 * **Pas de contrôle d'intégrité automatique** : Contrairement à ZFS, LVM ne vérifie pas si les données ont été altérées ou corrompues.
 * **Pas de compression native** : Ne permet pas de gagner de la place "automatiquement".
