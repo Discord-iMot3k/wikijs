@@ -2,7 +2,7 @@
 title: LVM - Local Volume Manager
 description: Cette page présente le fonctionnement de LVM, ses cas d'usage, ses avantages, ses limites, et dans quels contextes il peut être utilisé comme solution de stockage local.
 published: true
-date: 2025-07-28T10:26:48.221Z
+date: 2025-07-28T11:44:08.700Z
 tags: proxmox, pve, stockage
 editor: markdown
 dateCreated: 2025-07-28T10:22:21.500Z
@@ -72,4 +72,8 @@ LVM est particulièrement adapté dans les cas suivants :
 ---
 
 # 🛠️ Mise en place et Configuration de LVM
+
+**🛠️ Coming soon**
+
+> <b><p style="text-align: left;"> Made By : Dorygann </p></b>
 
