@@ -2,7 +2,7 @@
 title: LVM - Local Volume Manager
 description: Cette page présente le fonctionnement de LVM, ses cas d'usage, ses avantages, ses limites, et dans quels contextes il peut être utilisé comme solution de stockage local.
 published: true
-date: 2025-07-28T10:22:21.500Z
+date: 2025-07-28T10:24:02.604Z
 tags: proxmox, pve, stockage
 editor: markdown
 dateCreated: 2025-07-28T10:22:21.500Z
@@ -16,13 +16,13 @@ dateCreated: 2025-07-28T10:22:21.500Z
 ## 🔍 Qu'est ce que LVM
 
 **LVM (Logical Volume Manager)** est un système qui permet de mieux gérer l'espace disque sur un serveur sous Linux.
-Au lieu de créer des partitions fixes sur un disque, LVM permet de créer des **volumes logiques$^1$** que l'on peut **agrandir, réduir, ou déplacer** plus facilement.
+Au lieu de créer des partitions fixes sur un disque, LVM permet de créer des *volumes logiques$^1$* que l'on peut **agrandir, réduir, ou déplacer** plus facilement.
 
 Avec LVM, on peut par exemple : 
 
 * Ajouter un disque à une machine sans tout reconfigurer.
 * Agrandir un volume lorsqu'il est plein.
-* Faire des sauvegardes instantanées (snapshot$^2$) d'un volume.
+* Faire des sauvegardes instantanées (*snapshot$^2$*) d'un volume.
 
 C'est une solution pratique pour ceux qui veulent garder le contrôle sur l'organisation de leur stockage.
 
@@ -38,7 +38,7 @@ LVM est particulièrement adapté dans les cas suivants :
 
 * **Plateformes de test ou de formation légère** : Si tu montes rapidement des VM ou des containers dans un environnement de test, LVM est rapide à mettre en place, et ne demande pas de configuration particulière.
 
-* **Petits serveurs internes ou PC administratifs** : Pour des machines qui n'ont pas besoin d'un résilience$^1$ avancée ou de fonctionnalités complexes.
+* **Petits serveurs internes ou PC administratifs** : Pour des machines qui n'ont pas besoin d'un *résilience$^1$* avancée ou de fonctionnalités complexes.
 
 * **Environnements à faible ressources** : Contrairement à ZFS, LVM est léger et n'impose pas une consommation importante. Il fonctionne sans souci sur des machines peu puissantes (VM, Raspberry Pi, vieux serveurs, ...)
 
@@ -48,7 +48,7 @@ LVM est particulièrement adapté dans les cas suivants :
 
 ---
 
-**Résilience$^1$** : Capacité d'un système à fonctionner même en cas de panne ou d'erreur.
+*Résilience$^1$* : Capacité d'un système à fonctionner même en cas de panne ou d'erreur.
 
 # 👍 Avantages
 
@@ -63,6 +63,10 @@ LVM est particulièrement adapté dans les cas suivants :
 * **Pas de contrôle d'intégrité automatique** : Contrairement à ZFS, LVM ne vérifie pas si les données ont été altérées ou corrompues.
 * **Pas de compression native** : Ne permet pas de gagner de la place "automatiquement".
 * **Structure parfois complexe** : Avec plusieurs disques, groupes et volumes, la configuration peut devenir difficile à suivre au début.
-* **Pas conçu pour la haute disponibiité** : Pas de redondance intégrée en cas de panne matérielle. Pour cela, mieux vaut se tourner vers ZFS ou CEPH.
+* **Pas conçu pour la haute disponibiité** : Pas de *redondance$^1$* intégrée en cas de panne matérielle. Pour cela, mieux vaut se tourner vers ZFS ou CEPH.
+
+---
+
+*Redondance$^1$* : Duplication des données ou des composants pour garantir leur disponibilité même en cas de panne.
 
 
