@@ -2,7 +2,7 @@
 title: 🖥️ Machines virtuelles
 description: Cette page présente les étapes essentielles pour créer, configurer et gérer des machines virtuelles dans un environnement de virtualisation.
 published: false
-date: 2025-07-28T12:04:37.155Z
+date: 2025-07-28T12:06:13.569Z
 tags: proxmox, pve, kvm
 editor: markdown
 dateCreated: 2025-07-28T12:04:37.155Z
@@ -14,8 +14,10 @@ dateCreated: 2025-07-28T12:04:37.155Z
 La virtualisation est devenue un **pilier incontournable** des infrastructures modernes, qu'elles soient professionnelles ou personnelles (homelabs, plateformes de test, etc...).
 
 Créer une machine virtuelle (VM), c'est simuler un ordinateur entier dans un environnement isolé, que ce soit pour **héberger un service, faire des tests**, ou encore **déployer rapidement des systèmes** sans avoir besoin de matériel physique dédié.
+<center>
+<img src="/schema-virtualisation.png")>
+</center>
 
-![schema-virtualisation.png](/schema-virtualisation.png)
 *Source:  CoeurDuWeb*
 
 Dans cette section, nous allons voir comment : 
