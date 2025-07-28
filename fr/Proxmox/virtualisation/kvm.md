@@ -2,7 +2,7 @@
 title: 🖥️ Machines virtuelles
 description: Cette page présente les étapes essentielles pour créer, configurer et gérer des machines virtuelles dans un environnement de virtualisation.
 published: false
-date: 2025-07-28T12:36:30.370Z
+date: 2025-07-28T13:10:26.756Z
 tags: proxmox, pve, kvm
 editor: markdown
 dateCreated: 2025-07-28T12:04:37.155Z
@@ -78,27 +78,82 @@ Pour cela, cliquez sur l'onglet "Create VM" en haut à droite. La page de créat
 
 ### 1. General - Par défaut
 
-**Node :** Noeud Proxmox sur lequel votre machine virtuelle sera installée. Utile dans le cas où vous avez un cluster, et souhaitez changer la machine physique sur lequelle votre VM sera installée.
+**Node :** Noeud Proxmox sur lequel votre machine virtuelle sera installée. Utile dans le cas où vous avez un cluster, pour choisir manuellement sur quelle machine hôte la VM sera hébergée.
 
-**VM ID :** Numéro d'identification de votre machine virtuelle. Celui-ci permet d'identifier votre VM.
-> Une fois créee, le "VM ID" ne peut être modifiable sans passer par un clonage ou autre méthode. Si vous souhaitez suivre une nomenclature et une certaine logique, réfléchissez aux VM ID avant création de votre machine virtuelle.
+**VM ID :** Numéro d'identification de votre machine virtuelle. Celui-ci permet à Proxmox de référencer la VM dans son système.
+> **Attention :** Une fois créée, le VM ID **ne peut pas être modifiable sans passer par un clonage ou autre méthode**. Si vous appliquez une logique de nommage ou de numérotation, pensez bien à le définir **avant** la création.
 {.is-warning}
 
 **Name :** Nom de la votre machine virtuelle. Pourra être modifiée dans les paramètres même après création de la VM.
 
-**Ressource Pool :** Vous permet de placer directement votre VM dans un "pool" si vous en avez.
+**Ressource Pool :** Vous permet de placer directement votre VM dans un "pool" si vous en avez. Pratique pour organiser vos VMs par projet, équipe, service, ...
 
 ### 1. General - Advanced
 
 **Start at boot :** Si cochée, la machine virtuelle démarrera automatiquement lors du démarrage / après redémarrage de votre serveur Proxmox.
 
+**Start/Shutdown order :** Définit dans quel ordre sera démarrée ou arrêtée votre VM lors du boot/shutdown de votre machine Proxmox.
+`any : Aucune priorité particulière`
+`Nombre entier : 1, 2, 3, ...` - Plus le chiffre est petit, plus la VM sera démarrée ou arrêtée tôt.
+
+**Startup delay :** Défini un **délai d'attente** (en secondes) avant de démarrer cette VM, après le démarrage de votre machine Proxmox.
+
+**Shutdown timeout :** Indique le temps maximal (en secondes) que Proxmox attendra pour que la VM s'éteigne avant de forcer l'arrêt.
+
+**Tags :** Vous permet de créer / appliquer un tag à votre VM. Pratique pour organiser vos VMs par projet, équipe, service, ...
+
+---
+
+### 2. OS
+
+**Use CD/DVD disc image file (iso) :** Si cochée, vous choisissez de d'utiliser une image .iso stockée sur votre Proxmox.
+Lorsque vous choisissez cette option, vous avez la possibilité de choisir le `Storage : {Par défaut : local}` ainsi que l'`ISO Image : {Image ISO précédemment importée`.
+
+**Use physical CD/DVD Drive :** Si cochée, vous permet d'utiliser un disque physique externe (USB, DVD, ...)
+
+**Do not use any media :** N'utiliser aucun média. Utilisé lors de migration de VM, préparation d'une VM sans lancer d'installation, clonage, ...
+
+**Guest OS :**
+
+* Type : Permet de définir la "famille" de l'OS que vous allez installer Linux / Microsoft Windows / Solaris Kernel / Other.
+
+* Version : Permet de choisir la version de la "famille" que vous souhaitez installer.
+
+> Dans le cas où vous souhaitez installer une machine Windows / Windows Server, ajouter les VirtIO Drivers (Procédure à venir).
+{.is-warning}
+
+*Exemple de création d'une machine Debian 12*
+
+<center>
+<img src="/exemple_os_pve.png">
+</center>
+
+---
+
+### 3. System (à compléter)
+
+L'onglet System permet de définir les paramètres matériels virtuels que la VM va utiliser.
+
+**Graphic card :** `Default` convient à la plupart des systèmes et ne nécessite pas de configuration particulières. C'est l'option par défaut, et la plus simple, que nous allons utiliser. 
+
+**Machine :**
+
+**SCSI Controller :** 
+
+**Qemu Agent :** Coché - Permet d'installer l'agent QEMU dans votre OS. Permet à Proxmox d'avoir des informations plus précises sur la VM (IP, état de l'OS, ...).
+
+**Firmware :**
+
+* BIOS : 
+* Add TPM : 
+
+---
+
+### 4. Disks - Par défaut
 
 
 
-
-
-
-
+### 4. Disks - Advanced
 
 
 
