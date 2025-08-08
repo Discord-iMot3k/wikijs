@@ -2,13 +2,11 @@
 title: vSAN Disk Groups
 description: 
 published: true
-date: 2025-08-08T15:59:08.990Z
+date: 2025-08-08T15:59:22.569Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T15:52:04.400Z
 ---
-
-WORK IN PROGRESS
 
 > <b><p style="text-align: center;"> Auteur : Gz - Discord imot3k 
 > Tout droit réservé, reproductions et copies interdites sans autorisation </p></b>
