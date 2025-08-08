@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T15:03:40.682Z
+date: 2025-08-08T15:08:16.540Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -100,7 +100,6 @@ Le VMKernel Port utilisé pour vSAN est donc là pour **gérer l'ensemble du tra
 Le Compute de la machine virtuelle est géré par un hôte tandis que son disque virtuel se trouve sur un autre hôte.
 C'est pourquoi lorsque la VM voudra effectuer des commandes SCSI vers sur disque virtuel, elle utilisera un VMKernel Port dédié au vSAN pour envoyer ce trafic sur le réseau.
 
-
 # Read and Write Buffer
 ## Read
 
@@ -115,8 +114,7 @@ Sur chacun de nos ESXi nous disposons de périphériques de stockage traditionne
 Dans le cas d'un vSAN, ces disques sont appelés "**disques de capacité**" (qu'on appelle ausso des disques de capa pour aller plus vite). Ils sont représentés dans le schéma en rose.
 Nous avons également des SSD, appelés "**disques de cache**", qui sont beaucoup plus rapide que des HDD.
 
-
-
+![img_1784.png](/img_1784.png)
 
 Nous avons alors sur chacun de nos hôtes deux types de disques. Un pour la capacité et un pour le cache.
 Les "**disques de capacité**" sont présents pour stocker un grand nombre et un maximum de données possibles tandis que les "**disques de cache**" eux ne sont là que pour du cache.
@@ -125,6 +123,7 @@ Voyons ensemble ce qui se passe lorsque notre machine virtuelle VM1 veut lire de
 Le VMKernel Port va être utilisé pour transmettre la demande de lecture sur le réseau physique permettant ainsi d'atteindre l'hôte de destination **où se trouve le VMDK actif**.
 Lorsque la trame arrivera sur l'hôte de destination elle passera également par le VMKernel Port dédié au vSAN puis sera acheminée sur un des "**disques de cache**".
 
+![img_1785.png](/img_1785.png)
 
 La lecture de la donnée se fera ainsi **très rapidement** depuis le SSD.
 L'objectif des "**disques de cache**" est de **stocker les données les plus fréquemment lues** afin de pouvoir y accéder très rapidement.
@@ -135,8 +134,7 @@ Ainsi la plus part du temps lorsque l'on cherche uniquement à lire des données
 Si les données ne sont pas présentes sur les SSD, alors on appelle ça un "**cache miss**".
 Dans ce cas de figure la lecture des données se fera depuis les "**disques de capacité**" mais de manière plus lente.
 
-
-
+![img_1786.png](/img_1786.png)
 
 De ce fait dans ce type de configuration que l'on appelle **hybride** puisqu'elle est composée d'un mixe de HDD et de SSD, l'utilisation des "**disques de capacité**" (HDD) en lecture sera toujours plus lente que celle des "**disques de cache**" (SSD).
 
@@ -149,7 +147,7 @@ La première chose à prendre en compte est le fait que notre VM possède plusie
 Elle possède une copie sur ESXi 2 mais pour prévenir toute défaillance de cet ESXi elle en possède également une copie qui est mise en miroir sur ESXi 3.
 De cette manière si notre ESXi 2 tombe en panne, les données de la machine virtuelle VM1 ne seront pas perdues.
 
-
+![img_1787.png](/img_1787.png)
 
 Lorsque VM1 va émettre des trames en écritures sur son ou ses disques, ce qui va se passer c'est que la commande SCSI pour écrire sur le ou les disques sera alors envoyée **à chacun des ESXi qui en possède une copie**.
 Autrement dit dans notre cas VM1 enverra ses commandes sur ESXi 2 et ESXi 3.
