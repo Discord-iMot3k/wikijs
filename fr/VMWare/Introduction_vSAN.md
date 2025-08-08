@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T14:54:14.432Z
+date: 2025-08-08T14:55:35.407Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -47,8 +47,7 @@ Il y a quelques conditions préalables à remplir :
 
 Prenons par exemple le schéma ci-dessous.
 
-
-
+![img_1775.png](/img_1775.png)
 
 Sur chacun de ces ESXi nous pouvons voir que nous avons plusieurs éléments à disposition.
 Commençons par nous concentrer sur "ESX 1".
