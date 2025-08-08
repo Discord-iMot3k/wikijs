@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T14:57:35.174Z
+date: 2025-08-08T14:59:34.403Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -62,10 +62,7 @@ Ils ont donc tous deux ports Ethernet physiques de 10gbs (vmnic0 et vmnic1) conn
 
 ![img_1777.png](/img_1777.png)
 
-
 Sur chacun de ces ESXi nous avons créé un VMKernel Port et nous l'avons configuré de manière à ce qu'il soit utilisé pour le trafic vSAN.
-
-
 
 Pour résumer il s'agit d'un port que nous avons créé, auquel nous avons configuré une adresse IP et qui sera utilisé pour l'ensemble du trafic réseau qui concernera vSAN.
 Par exemple si une machine virtuelle a besoin de transmettre du trafic lié à vSAN d'un hôte à l'autre alors ce port sera utilisé.
@@ -73,6 +70,7 @@ Je vous invite toutefois à consulter la documentation.
 
 Nous devons donc **obligatoirement** avoir cette interface réseau pour que vSAN puisse fonctionner correctement.
 
+![img_1778.png](/img_1778.png)
 
 Je tiens à préciser que la manière dont le réseau a été mis en place sur le schéma fait parti de ce que l'on appelle "les bonnes pratiques". J'entends par là que le réseau lui même est redondé via l'utilisation de deux switches différents qui sont reliés à chacun des ESXi.
 Si l'un des switches tombe en panne, le réseau fonctionnera toujours grâce au second switch.
