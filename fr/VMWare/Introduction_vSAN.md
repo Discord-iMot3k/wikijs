@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T15:13:43.221Z
+date: 2025-08-08T15:15:59.626Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -134,7 +134,7 @@ Ainsi la plus part du temps lorsque l'on cherche uniquement à lire des données
 Si les données ne sont pas présentes sur les SSD, alors on appelle ça un "**cache miss**".
 Dans ce cas de figure la lecture des données se fera depuis les "**disques de capacité**" mais de manière plus lente.
 
-![img_1786.png](/img_1786.png)
+![img_1790.gif](/img_1790.gif)
 
 De ce fait dans ce type de configuration que l'on appelle **hybride** puisqu'elle est composée d'un mixe de HDD et de SSD, l'utilisation des "**disques de capacité**" (HDD) en lecture sera toujours plus lente que celle des "**disques de cache**" (SSD).
 
