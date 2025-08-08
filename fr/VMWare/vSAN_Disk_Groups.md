@@ -2,7 +2,7 @@
 title: vSAN Disk Groups
 description: 
 published: true
-date: 2025-08-08T15:53:20.099Z
+date: 2025-08-08T15:54:04.983Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T15:52:04.400Z
@@ -29,8 +29,7 @@ De plus il est possible d'avoir jusqu'à 5 **Disk Groups** par ESXi.
 Il faut savoir que si vous choisissez une configuration composée entièrement de disques SSD, les **disques de capacités** peuvent être également des SSD.
 Les **Disk Groups** peuvent donc être constitués de différentes manières.
 
-
-
+![img_1793.png](/img_1793.png)
 
 Dans cet exemple en particulier, nous avons un "**Disk Group**" sur chacun de nos ESXi qui est composé de 6 HDD pour la **capacité** et un SSD pour le **cache**.
 C'est ce que l'on appelle une **configuration hybride** puisque nous mélangeons les deux types de disques, à savoir des HDD pour la capacité et un SSD pour le cache.
