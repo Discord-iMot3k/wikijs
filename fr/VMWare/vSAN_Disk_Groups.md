@@ -2,7 +2,7 @@
 title: vSAN Disk Groups
 description: 
 published: true
-date: 2025-08-08T15:55:18.970Z
+date: 2025-08-08T15:57:08.731Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T15:52:04.400Z
@@ -72,8 +72,7 @@ Si nous avons besoin d'**augmenter la capacité de stockage de notre Datastore v
 Cela nous permettra d'ajouter des disques de capacité et de cache supplémentaires et ainsi d'avoir un Datastore vSAN plus volumineux.
 Pour rappel chaque ESXi peut avoir **jusqu'à 5 "Disk Group**" différents.
 
-
-
+![img_1796.png](/img_1796.png)
 
 Nous pourrions également ajouter plus d'ESXi à notre Cluster vSAN puisque le stockage de chacun des nouveaux ESXi ajoutés pourra être ainsi ajouté au Datastore vSAN.
 Il existe donc plusieurs manière d'augmenter la taille du Datastore vSAN.
