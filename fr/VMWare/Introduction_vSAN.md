@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T14:49:14.230Z
+date: 2025-08-08T14:54:14.432Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -33,7 +33,7 @@ C'est précisément à l'aide du **DRS** que nous pourrons avoir des VMs qui ser
 Une autre fonctionnalité nécessitant **obligatoirement** un Cluster d'ESXi est l'utilisation de vSAN. C'est d'ailleurs celle-ci fonctionnalité qui va nous intéresser ici et dont nous allons parler.
 Pour l'utiliser, la toute première étape consistera donc à créer un Cluster d'hôtes.
 
-
+![img_1774.png](/img_1774.png)
 
 # vSAN Network
 
