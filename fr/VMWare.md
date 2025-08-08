@@ -2,7 +2,7 @@
 title: VMWare
 description: Tutos sur VMWare
 published: true
-date: 2025-08-08T14:17:28.060Z
+date: 2025-08-08T14:19:20.067Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T22:21:33.308Z
@@ -18,4 +18,7 @@ dateCreated: 2025-06-17T22:21:33.308Z
 
 <li><a href="/VMWare/vSphere_Standard_Switches"> vSphere Standard Switches </a> : Introduction au concept de "vSphere Standard Switch" </li>
 
-<li><a href="/VMWare/Introduction_vSAN"> Introduction au vSAN </a> : Introduction au concept de vSAN </li>
+<li><a href="/VMWare/Introduction_vSAN"> Introduction au vSAN </a> : Présentation de quelques éléments de l'architecture de base de vSAN.
+
+
+</li>
