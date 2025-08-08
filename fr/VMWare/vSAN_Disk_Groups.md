@@ -2,7 +2,7 @@
 title: vSAN Disk Groups
 description: 
 published: true
-date: 2025-08-08T15:57:08.731Z
+date: 2025-08-08T15:59:08.990Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T15:52:04.400Z
@@ -77,15 +77,13 @@ Pour rappel chaque ESXi peut avoir **jusqu'à 5 "Disk Group**" différents.
 Nous pourrions également ajouter plus d'ESXi à notre Cluster vSAN puisque le stockage de chacun des nouveaux ESXi ajoutés pourra être ainsi ajouté au Datastore vSAN.
 Il existe donc plusieurs manière d'augmenter la taille du Datastore vSAN.
 
-
-
+![img_1797.png](/img_1797.png)
 
 Cependant dans cet exemple, il y a tout de même quelque chose qui doit nous interpeller et que nous devons éviter de faire.
 Si l'on remarque bien, l'ESXi 4 qui a été ajouté possède une capacité de stockage légèrement inférieure à celle des autres ESXi du Cluster.
 Cet ESXi possède un seul "**Disk Group**" tandis que les autres en possèdent deux. Cela va à l'encontre de ce que nous voulons faire avec un cluster vSAN.
 
-
-
+![img_1798.png](/img_1798.png)
 
 En règle générale, nous devons maintenir une configuration **la plus identique et la plus cohérente possible dans l'ensemble du Cluster**.
 Dans notre exemple les ESXi 1 à 3 possèderont plus de données et plus d'objets de VMs que l'ESXi 4.
@@ -103,9 +101,7 @@ Après avoir respecté l'ensemble des éléments évoqués précédemment ainsi 
 Tout ce stockage va être rassemblé et combiné afin de créer un **stockage partagé** pour l'ensemble des ESXi du Cluster vSAN.
 Ce stockage partagé sera représenté par un seul gros Datastore appelé "**vSANDatastore**" qui représentera toute la capacité de **stockage physique** des ESXi
 
-
-
-
+![img_1799.png](/img_1799.png)
 
 Tout la capacité du stockage physique ? oui et non ...
 En effet **seuls les disques que nous aurons sélectionnés** seront utilisés pour créer le Datastore vSAN.
