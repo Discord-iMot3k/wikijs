@@ -2,7 +2,7 @@
 title: VMWare
 description: Tutos sur VMWare
 published: true
-date: 2025-08-08T15:26:21.867Z
+date: 2025-08-08T15:50:59.609Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T22:21:33.308Z
@@ -18,7 +18,10 @@ dateCreated: 2025-06-17T22:21:33.308Z
 
 <li><a href="/VMWare/vSphere_Standard_Switches"> vSphere Standard Switches </a> : Introduction au concept de "vSphere Standard Switch" </li>
 
-<li><a href="/VMWare/Introduction_vSAN"> Introduction au vSAN </a> : Présentation de quelques éléments de l'architecture de base de vSAN.
+<li><a href="/VMWare/Introduction_vSAN"> Introduction au vSAN </a> : Présentation de quelques éléments de l'architecture de base de vSAN.</li>
 
-
+<li><a href="/VMWare/vSAN_Disk_Groups"> vSAN Disk Groups </a> : Presentation du concept de "Disk Groups" dans vSAN. Comment améliorer les performances et comment gérer la capacité de stockage dans nos "Disk Groups".
 </li>
+
+
+
