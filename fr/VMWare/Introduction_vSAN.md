@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T14:59:34.403Z
+date: 2025-08-08T15:01:50.788Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -75,7 +75,7 @@ Nous devons donc **obligatoirement** avoir cette interface réseau pour que vSAN
 Je tiens à préciser que la manière dont le réseau a été mis en place sur le schéma fait parti de ce que l'on appelle "les bonnes pratiques". J'entends par là que le réseau lui même est redondé via l'utilisation de deux switches différents qui sont reliés à chacun des ESXi.
 Si l'un des switches tombe en panne, le réseau fonctionnera toujours grâce au second switch.
 
-
+![img_1779.png](/img_1779.png)
 
 De plus, ici, il s'agit de switches dédiés au vSAN, rien d'autres n'est connecté dessus.
 Seuls les ESXi y ont accès.
@@ -86,6 +86,7 @@ Petit rappel, dans le cas d'une utilisation de vSAN une VM est décomposée en u
 Nous allons à présent voir comment sont stockées les objets des machines virtuelles et comment les VMKernel Ports entrent en jeu.
 Reprenons notre schéma mais ajoutons une VM appellée "**VM1**", stockée sur le vSAN.
 
+![img_1780.png](/img_1780.png)
 
 Lorsque cette VM effetuera des actions de lecture ou d'écriture, les commandes SCSI qu'elle enverra seront poussées **sur le réseau physique au travers du VMKernel Port** vers l'hôte de destination.
 
