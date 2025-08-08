@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T15:10:30.142Z
+date: 2025-08-08T15:13:43.221Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -123,7 +123,7 @@ Voyons ensemble ce qui se passe lorsque notre machine virtuelle VM1 veut lire de
 Le VMKernel Port va être utilisé pour transmettre la demande de lecture sur le réseau physique permettant ainsi d'atteindre l'hôte de destination **où se trouve le VMDK actif**.
 Lorsque la trame arrivera sur l'hôte de destination elle passera également par le VMKernel Port dédié au vSAN puis sera acheminée sur un des "**disques de cache**".
 
-![img_1785.png](/img_1785.png)
+![img_1789.gif](/img_1789.gif)
 
 La lecture de la donnée se fera ainsi **très rapidement** depuis le SSD.
 L'objectif des "**disques de cache**" est de **stocker les données les plus fréquemment lues** afin de pouvoir y accéder très rapidement.
