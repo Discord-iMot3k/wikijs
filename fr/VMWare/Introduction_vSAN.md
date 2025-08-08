@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T15:01:50.788Z
+date: 2025-08-08T15:03:40.682Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -90,11 +90,11 @@ Reprenons notre schéma mais ajoutons une VM appellée "**VM1**", stockée sur l
 
 Lorsque cette VM effetuera des actions de lecture ou d'écriture, les commandes SCSI qu'elle enverra seront poussées **sur le réseau physique au travers du VMKernel Port** vers l'hôte de destination.
 
-
+![img_1781.png](/img_1781.png)
 
 Nous pouvons voir ici que le VMDK principal de notre VM est stockée sur l'ESXi 2 mais que l'ESXi 3 en possède également une copie. Cette copie est en réalité un miroir, parfaitement identique, juste au cas où le VMDk principal se trouverai sur un hôté défaillant.
 
-
+![img_1782.png](/img_1782.png)
 
 Le VMKernel Port utilisé pour vSAN est donc là pour **gérer l'ensemble du trafic** qui va devoir circuler sur le réseau vSAN.
 Le Compute de la machine virtuelle est géré par un hôte tandis que son disque virtuel se trouve sur un autre hôte.
@@ -109,7 +109,7 @@ Regardons le schéma suivant pour comprendre.
 Ce que nous pouvons voir ici est ce que l'on appelle une **configuration hybride**.
 Mais qu'est ce que ça veut dire concrètement ?
 
-
+![img_1783.png](/img_1783.png)
 
 Sur chacun de nos ESXi nous disposons de périphériques de stockage traditionnels, autrement dit des HDD.
 Dans le cas d'un vSAN, ces disques sont appelés "**disques de capacité**" (qu'on appelle ausso des disques de capa pour aller plus vite). Ils sont représentés dans le schéma en rose.
