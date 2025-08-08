@@ -2,7 +2,7 @@
 title: vSAN Disk Groups
 description: 
 published: true
-date: 2025-08-08T15:52:04.400Z
+date: 2025-08-08T15:53:20.099Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T15:52:04.400Z
@@ -10,8 +10,8 @@ dateCreated: 2025-08-08T15:52:04.400Z
 
 WORK IN PROGRESS
 
-
-
+> <b><p style="text-align: center;"> Auteur : Gz - Discord imot3k 
+> Tout droit réservé, reproductions et copies interdites sans autorisation </p></b>
 
 # Introduction
 Dans cette documentation nous verrons ensemble le concept de "**Disk Groups**", comment améliorer les performances et comment gérer la capacité de stockage dans nos "**Disk Groups**".
