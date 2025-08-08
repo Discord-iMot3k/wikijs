@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T14:55:35.407Z
+date: 2025-08-08T14:56:28.803Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -54,8 +54,7 @@ Commençons par nous concentrer sur "ESX 1".
 Cet ESXi possède deux VMNICs, pour rappel il s'agit de port Ethernet **physique** sur l'ESXi.
 Il possède donc deux adapatateurs Ethernet physiques et pour notre exemple nous allons supposer qu'il s'agit de ports 10Gbs et que chacun de ces ports soit connecté à un switch différent.
 
-
-
+![img_1776.png](/img_1776.png)
 
 En regardant le schéma nous pouvons dire la même chose pour "les ESXi 2" et "ESXi 3"
 Ils sont configurés de manière identique.
