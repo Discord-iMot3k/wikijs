@@ -2,7 +2,7 @@
 title: vSAN Disk Groups
 description: 
 published: true
-date: 2025-08-08T15:54:04.983Z
+date: 2025-08-08T15:55:18.970Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T15:52:04.400Z
@@ -48,17 +48,13 @@ Nous avons donc retiré 3 HDD parmi les "**disques de capacité**".
 Avant cette manipulation, nous avions un "**Disk Group**" qui contenait 6 HDD de capacité et 1 SSD pour le cache.
 A présent nous avons un "**Disk Group**" contenant 3 HDD pour la capacité et 1 SSD pour le cache.
 
-
-
-
+![img_1794.png](/img_1794.png)
 
 Afin d'améliorer les performances ce que nous pouvons faire c'est tout simplement procéder à la création d'un second "**Disk Group**".
 Nous allons donc créer un second "**Disk Group**" qui possèdera son propre SSD pour le cache et dans lequel nous allons intégrer les 3 HDD de capacité précédemment retiré du premier "**Disk Group**".
 Cela nous permettra donc d'avoir deux "**Disk Group**" ayant chacun 1 SSD de cache et 3 HDD de capacité.
 
-
-
-
+![img_1795.png](/img_1795.png)
 
 Mais quel est l'avantage de cette approche ?
 En réalisant cette opération ce que nous avons en réalité fait c'est **augmenter le ratio de SSD par rapport aux HDD**. 
