@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T14:56:28.803Z
+date: 2025-08-08T14:57:35.174Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -60,7 +60,7 @@ En regardant le schéma nous pouvons dire la même chose pour "les ESXi 2" et "E
 Ils sont configurés de manière identique.
 Ils ont donc tous deux ports Ethernet physiques de 10gbs (vmnic0 et vmnic1) connectés sur deux switches différents.
 
-
+![img_1777.png](/img_1777.png)
 
 
 Sur chacun de ces ESXi nous avons créé un VMKernel Port et nous l'avons configuré de manière à ce qu'il soit utilisé pour le trafic vSAN.
