@@ -2,7 +2,7 @@
 title: Introduction au vSAN
 description: 
 published: true
-date: 2025-08-08T15:08:16.540Z
+date: 2025-08-08T15:09:17.802Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T14:31:14.649Z
@@ -156,7 +156,7 @@ Si vous êtes familier avec le Raid, c'est très similaire à la façon dont les
 
 De cette manière les deux ESXi possèdent toujours une version à jour du ou des VMDK, juste au cas où l'un d'entre eux tomberait en panne.
 
-
+![img_1788.png](/img_1788.png)
 
 La seconde chose à prendre en compte, c'est la destination des commandes d'écriture.
 Si vous regardez bien le gif au dessus, les commandes atteignent en premier les disques SSD.
