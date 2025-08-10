@@ -2,7 +2,7 @@
 title: Sauvegarde
 description: Ici vous trouverez tout ce qui concerne les systèmes de sauvegardes avec l'installation, la configuration, les tips, etc...
 published: true
-date: 2025-08-10T16:23:40.766Z
+date: 2025-08-10T16:26:23.425Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-10T16:23:40.766Z
@@ -10,7 +10,7 @@ dateCreated: 2025-08-10T16:23:40.766Z
 
 # Atempo Time Navigator (TiNa)
 
-![logo.svg](/sauvegarde/tina/logo.svg)
+![logo.svg](/sauvegarde/tina/logo.svg){.align-center}
 
 ## Architecture et déploiement
 
