@@ -2,7 +2,7 @@
 title: VMWare
 description: Tutos sur VMWare
 published: true
-date: 2025-08-08T15:59:34.199Z
+date: 2025-08-10T15:58:19.312Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T22:21:33.308Z
@@ -13,15 +13,9 @@ dateCreated: 2025-06-17T22:21:33.308Z
 </center>
 
 ---
-
-<li><a href="/VMWare/Les_concepts_des_réseaux_virtuels"> Les concepts des réseaux virtuels </a> : Introduction aux réseaux virtuels </li>
-
-<li><a href="/VMWare/vSphere_Standard_Switches"> vSphere Standard Switches </a> : Introduction au concept de "vSphere Standard Switch" </li>
-
-<li><a href="/VMWare/Introduction_vSAN"> Introduction au vSAN </a> : Présentation de quelques éléments de l'architecture de base de vSAN.</li>
-
-<li><a href="/VMWare/vSAN_Disk_Groups"> vSAN Disk Groups </a> : Presentation du concept de "Disk Groups" dans vSAN. Comment améliorer les performances et comment gérer la capacité de stockage dans nos "Disk Groups".
-</li>
-
-
+- [Les concepts des réseaux virtuels *Introduction aux réseaux virtuels.*](/VMWare/Les_concepts_des_réseaux_virtuels)
+- [vSphere Standard Switches *Introduction au concept de "vSphere Standard Switch.*](/VMWare/vSphere_Standard_Switches)
+- [Introduction au vSAN *Présentation de quelques éléments de l'architecture de base de vSAN.*](/VMWare/Introduction_vSAN)
+- [vSAN Disk Groups *Présentation du concept de "Disk Groups" dans vSAN.*](/VMWare/vSAN_Disk_Groups)
+{.links-list}
 
