@@ -2,7 +2,7 @@
 title: OpnSense
 description: 
 published: true
-date: 2025-08-21T19:17:07.797Z
+date: 2025-08-21T19:17:30.637Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-21T19:17:07.797Z
@@ -21,8 +21,8 @@ dateCreated: 2025-08-21T19:17:07.797Z
 
 # Réseaux
 
-- [Interfaces *Configuration des interfaces physiques](/firewall/opnSense/interfaces)
-- [VLAN *Configuration de VLAN *](/firewall/opnSense/vlan)
+- [Interfaces *Configuration des interfaces physiques*](/firewall/opnSense/interfaces)
+- [VLAN *Configuration de VLAN*](/firewall/opnSense/vlan)
 {.links-list}
 
 ---
